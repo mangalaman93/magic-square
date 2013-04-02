@@ -8,6 +8,9 @@ look at the data file for the format of the input
 copy and paste the following lines to prolog terminal after changing
 the parameters properly
 
+magic_square.pl solves the problem using clpfd library whereas the
+same problem is solved without clpfd in gMagic.pl file.
+
 chdir('C:/Users/aman/Documents/workspace/Prolog/magic_square'),
 working_directory(CWD, CWD),
 magic_square(A1, data).
